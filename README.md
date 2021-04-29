@@ -6,6 +6,8 @@
 `cat subdomains.txt | python3 dxtractor.py`
 ### Or
 `python3 dxtractor.py -file subdomains.txt`
+### with other tools :
+`subfinder -silent -d target.com | python3 dxtractor.py`
 
 ### 2. extract forth level domains using `-count` flag:
 `cat subdomains.txt | python3 dxtractor.py -count 4`
